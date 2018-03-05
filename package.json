@@ -1,37 +1,39 @@
 {
-  "name": "UpUp",
-  "version": "0.1.1",
+  "name": "upup",
+  "version": "1.0.0",
   "description": "Control the content users see, even when they're offline",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "cache",
+    "offline",
+    "offlinefirst",
+    "serviceworker"
+  ],
+  "homepage": "https://github.com/TalAter/UpUp",
+  "bugs": {
+    "url": "https://github.com/TalAter/UpUp/issues"
   },
+  "license": "MIT",
+  "author": "Tal Ater <tal@talater.com> (https://www.talater.com/)",
+  "main": "dist/upup.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/TalAter/UpUp.git"
   },
-  "keywords": [
-    "offline",
-    "offlinefirst",
-    "cache",
-    "serviceworker"
-  ],
-  "author": "Tal Ater <tal@talater.com> (https://www.talater.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TalAter/UpUp/issues"
+  "scripts": {
+    "start": "grunt dev"
   },
-  "homepage": "https://github.com/TalAter/UpUp",
   "devDependencies": {
+    "async": "^2.6.0",
     "grunt": "^0.4.5",
-    "async": "^1.5.0",
-    "grunt-contrib-compress": "^0.14.0",
-    "grunt-contrib-connect": "^0.11.2",
-    "grunt-contrib-cssmin": "^0.14.0",
-    "grunt-contrib-imagemin": "^1.0.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-uglify": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-markdox": "^1.2.1"
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-markdox": "^1.2.1",
+    "load-grunt-tasks": "^3.5.2"
   }
 }
